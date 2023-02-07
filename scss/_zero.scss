@@ -54,12 +54,15 @@ body {
         max-width: 970px;
     }
     //  TABLET
-        @media (max-width:991.98px) {
+    @media (max-width:991.98px) {
         max-width: 750px;
     }
     //  MOBILE
     @media(max-width:767.98px) {
         max-width: none;
+    }
+    // MOBILE SMALL
+    @media(max-width:479.98px){
     }
 }
 .main {
